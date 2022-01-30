@@ -10,3 +10,7 @@ border: red double;   -> works
 
 border-style should be solid, double, hidden, dotted, dashed, groove, ridge, inset or outset.
 if not, it wouldn't work.
+
+
+
+-top, -right, -bottom, -left% values are all relative about width value, not height value.
