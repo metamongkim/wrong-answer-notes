@@ -1,0 +1,12 @@
+rgba(0,10,20,0)
+a alpha has only 0 or 1 as value.
+
+
+
+border: 10px red;   -> wrong
+border-style has none as default value.
+border: 10px solid;   -> works
+border: red double;   -> works
+
+border-style should be solid, double, hidden, dotted, dashed, groove, ridge, inset or outset.
+if not, it wouldn't work.
